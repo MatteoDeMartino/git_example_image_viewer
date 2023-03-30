@@ -13,6 +13,8 @@ public:
 
     bool save(std::string name);
 
+    bool resize(int width, int height);
+
 private:
     int width, height;
     char channels;
